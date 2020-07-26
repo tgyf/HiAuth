@@ -90,8 +90,10 @@ hiauth.redis.password=
 
 # 打包前端
 >cd HiAuth\hi-auth-front
+>npm install --global --production windows-build-tools
 >npm install
 >npm run dev
+
 ```
 
 ### 验证
